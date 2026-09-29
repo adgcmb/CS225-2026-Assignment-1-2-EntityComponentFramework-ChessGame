@@ -19,10 +19,10 @@ class Piece : public Entity
         bool is_color_white;
     public:
         //Default constructor, set the color 
-        Piece(bool iswhite);
+        Piece(bool isWhite);
         
         //Overload constructor, set the color and attach a new Position and Visual component with the coordinates (x,y) and letter
-        Piece(bool iswhite, int x, int y, char letter);
+        Piece(bool isWhite, int x, int y, char letter);
 
         // Returns if the piece color is white
         bool isWhite();
